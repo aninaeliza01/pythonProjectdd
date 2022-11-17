@@ -1,0 +1,7 @@
+x=input("enter the 1st list of number:")
+y=input("enter the 2nd list of number:")
+print(x)
+xlist=x.split(",")
+print(xlist)
+print(xlist[0])
+print(xlist[-1])

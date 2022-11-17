@@ -1,0 +1,10 @@
+dic={'number':1,'letter':'a','fruit':"APPLE"}
+dic.pop('letter')
+print(dic)
+dic.update({'fruit':"MANGO"})
+print(dic)
+dic.update({'letter':'a'})
+print(dic)
+print(dic.copy())
+print(dic.keys())
+print(dic.values())
